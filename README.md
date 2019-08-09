@@ -1,4 +1,4 @@
-# React Tutorial Implementation
+# React Learning
 
 An implementation of the official [React tutorial](https://reactjs.org/tutorial/tutorial.html).
 
