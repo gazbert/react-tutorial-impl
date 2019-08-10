@@ -17,6 +17,7 @@ import './index.css';
 
 // --> changed to a function component as it has not state...
 
+// props is passed in by React
 function Square(props) {
   return (
     // why does onClick={() => this.props.onClick()} no longer work?
@@ -30,7 +31,7 @@ class Board extends React.Component {
   renderSquare(i) {
     return (
       <Square
-        value={this.props.squares[i]} // TODO: How does props get passed in to here?
+        value={this.props.squares[i]}
         onClick={() => this.props.onClick(i)}
       />
     );
@@ -60,6 +61,7 @@ class Board extends React.Component {
 }
 
 class Game extends React.Component {
+  // props is passed in by React
   constructor(props) {
     super(props);
     this.state = {
