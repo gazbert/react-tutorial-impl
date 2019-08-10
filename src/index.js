@@ -96,6 +96,7 @@ class Board extends React.Component {
   }
 }
 
+// Before "Adding Time Travel" section of tutorial
 class Game extends React.Component {
   render() {
     return (
